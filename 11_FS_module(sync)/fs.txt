@@ -1,0 +1,2 @@
+This file creted by fs module
+This is new Data
