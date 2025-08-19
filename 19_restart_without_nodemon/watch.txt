@@ -1,0 +1,3 @@
+nodemon is a 3rd party package.
+instend of if we want to without depends any package in new version provides this and run it:-
+node --watch fileName.js
