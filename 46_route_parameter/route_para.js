@@ -1,3 +1,9 @@
+// Route Parameter:-
+// Route parameters are named URL segments that are used to capture values at specific positions in the URL.
+// They are defined by a colon (:) followed by the parameter name.
+// e.g /user/:id/view/:article
+// You can access the captured values using req.params.id and req.params.article
+
 // Import the Express framework (ES Module import syntax)
 import express from "express";
 
