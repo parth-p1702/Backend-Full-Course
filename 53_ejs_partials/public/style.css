@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.report-section {
+    max-width: 700px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-section h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f1f1f1;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, background 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+    background: #e6f2ff;
+}
+
+li p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
